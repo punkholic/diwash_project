@@ -11,30 +11,30 @@
             <Tab fx:id="tab1" text="खरिद खता फरम">
                 <content>
                     <Pane>
-                        <Label layoutX="55.0" layoutY="18.0" prefHeight="0.0" prefWidth="31.0" text="मिती :" />
+                        <Label layoutX="55.0" layoutY="18.0" prefHeight="0.0" prefWidth="31.0" text="मिति :" />
                         <DatePicker fx:id="kharid_miti" layoutX="94.0" layoutY="14.0" prefHeight="17.0" prefWidth="197.0" />
-                        <Label layoutX="22.0" layoutY="88.0" text="प्रज्ञापन पत्र नम्बर :" />
+                        <Label layoutX="22.0" layoutY="88.0" text="प्रज्ञापनपत्र नम्बर :" />
                         <TextField fx:id="kharid_patra_no" layoutX="125.0" layoutY="84.0" prefHeight="24.0" prefWidth="93.0" />
-                        <Label layoutX="14.0" layoutY="161.0" text="आपुर्तिकर्त को नाम :" />
-                        <Label layoutX="14.0" layoutY="229.0" text="आपुर्तिकर्तको स्थथी लेख नम्बर  :" />
-                        <Label layoutX="14.0" layoutY="315.0" text="खरिद पौठारी गरिएक बस्तु वा सेवाको विवर्ण :" />
-                        <Label layoutX="22.0" layoutY="414.0" text="खरिद गरिएको बस्तुको परिमण :" />
+                        <Label layoutX="14.0" layoutY="161.0" text="आपुर्तिकर्ताको नाम :" />
+                        <Label layoutX="14.0" layoutY="229.0" text="आपुर्तिकर्ताको स्थायी लेखा नम्बर  :" />
+                        <Label layoutX="14.0" layoutY="315.0" text="खरिद गरिएको बस्तु वा सेवाको बिवरण:" />
+                        <Label layoutX="22.0" layoutY="414.0" text="खरिद गरिएको वस्तुको परिमाण :" />
                         <Label layoutX="96.0" layoutY="495.0" text="जम्मा खरिद" />
                         <Label layoutX="769.0" layoutY="18.0" text="कर छुट हुने बस्तु वा सेवाको खरिद :" />
-                        <Label layoutX="769.0" layoutY="157.0" text="कर योग्य खरिद (पुजिगत बहेक्) :" />
-                        <Label layoutX="776.0" layoutY="297.0" text="कर योग्य पौठरी (पुजिगत बहेक्) " />
-                        <Label layoutX="754.0" layoutY="459.0" text="पुजिगत कर योग्य खरिद (पुजिगत बहेक्) " />
+                        <Label layoutX="769.0" layoutY="157.0" text="कर योग्य खरिद (पुँजीगत बाहेक) :" />
+                        <Label layoutX="776.0" layoutY="297.0" text="कर योग्य पौठरी (पुँजीगत बाहेक) " />
+                        <Label layoutX="754.0" layoutY="459.0" text="पुँजीगत कर योग्य खरिद (पुँजीगत बाहेक) " />
                         <TextField fx:id="kharid_aapurtikarta_nam" layoutX="123.0" layoutY="157.0" />
                         <TextField fx:id="kharid_aapurtikarta_no" layoutX="174.0" layoutY="225.0" />
                         <TextField fx:id="kharid_bastu_bibarad" layoutX="222.0" layoutY="311.0" />
                         <TextField fx:id="kharid_bastuko_pramad" layoutX="184.0" layoutY="410.0" />
                         <Label layoutX="173.0" layoutY="511.0" text="पै :" />
-                        <Label layoutX="44.0" layoutY="511.0" text="मुलिय रु :" />
+                        <Label layoutX="44.0" layoutY="511.0" text="मुल्य रु :" />
                         <TextField fx:id="kharid_jamma_muliya" layoutX="36.0" layoutY="538.0" prefHeight="24.0" prefWidth="85.0" />
                         <TextField fx:id="kharid_jamma_pae" layoutX="137.0" layoutY="538.0" prefHeight="24.0" prefWidth="100.0" />
-                        <Label layoutX="620.0" layoutY="180.0" text="मुलिय रु :" />
+                        <Label layoutX="620.0" layoutY="180.0" text="मुल्य रु :" />
                         <Label layoutX="756.0" layoutY="180.0" text="पै :" />
-                        <Label layoutX="704.0" layoutY="38.0" text="मुलिय रु :" />
+                        <Label layoutX="704.0" layoutY="38.0" text="मुल्य रु :" />
                         <Label layoutX="884.0" layoutY="38.0" text="पै :" />
                         <TextField fx:id="kharid_chut_bastu_1" layoutX="670.0" layoutY="60.0" prefHeight="24.0" prefWidth="115.0" />
                         <TextField fx:id="kharid_chut_bastu_2" layoutX="846.0" layoutY="60.0" prefHeight="24.0" prefWidth="117.0" />
@@ -44,7 +44,7 @@
                         <Label layoutX="938.0" layoutY="180.0" text="पै :" />
                         <TextField fx:id="kharid_kar_yogya_3" layoutX="821.0" layoutY="202.0" prefHeight="24.0" prefWidth="85.0" />
                         <TextField fx:id="kharid_kar_yogya_4" layoutX="932.0" layoutY="202.0" prefHeight="24.0" prefWidth="106.0" />
-                        <Label layoutX="625.0" layoutY="325.0" text="मुलिय रु :" />
+                        <Label layoutX="625.0" layoutY="325.0" text="मुल्य रु :" />
                         <Label layoutX="761.0" layoutY="325.0" text="पै :" />
                         <TextField fx:id="kharid_kar_yogya_pauthari_1" layoutX="600.0" layoutY="347.0" prefHeight="24.0" prefWidth="95.0" />
                         <TextField fx:id="kharid_kar_yogya_pauthari_2" layoutX="727.0" layoutY="347.0" prefHeight="24.0" prefWidth="83.0" />
@@ -52,7 +52,7 @@
                         <Label layoutX="943.0" layoutY="325.0" text="पै :" />
                         <TextField fx:id="kharid_kar_yogya_pauthari_3" layoutX="826.0" layoutY="347.0" prefHeight="24.0" prefWidth="85.0" />
                         <TextField fx:id="kharid_kar_yogya_pauthari_4" layoutX="937.0" layoutY="347.0" prefHeight="24.0" prefWidth="106.0" />
-                        <Label layoutX="630.0" layoutY="486.0" text="मुलिय रु :" />
+                        <Label layoutX="630.0" layoutY="486.0" text="मुल्य रु :" />
                         <Label layoutX="766.0" layoutY="486.0" text="पै :" />
                         <TextField fx:id="kharid_kar_yogya_kharid_1" layoutX="605.0" layoutY="508.0" prefHeight="24.0" prefWidth="95.0" />
                         <TextField fx:id="kharid_kar_yogya_kharid_2" layoutX="732.0" layoutY="508.0" prefHeight="24.0" prefWidth="83.0" />
@@ -61,7 +61,7 @@
                         <TextField fx:id="kharid_kar_yogya_kharid_3" layoutX="831.0" layoutY="508.0" prefHeight="24.0" prefWidth="85.0" />
                         <TextField fx:id="kharid_kar_yogya_kharid_4" layoutX="942.0" layoutY="508.0" prefHeight="24.0" prefWidth="106.0" />
                         <Button fx:id="purchaseAdd" layoutX="427.0" layoutY="550.0" mnemonicParsing="false" text="Add" />
-                  <Button fx:id="purchaseCancelEdit" layoutX="497.0" layoutY="550.0" mnemonicParsing="false" text="Cancel Edit" visible="false" />
+                        <Button fx:id="purchaseCancelEdit" layoutX="497.0" layoutY="550.0" mnemonicParsing="false" text="Cancel Edit" visible="false" />
                     </Pane>
                 </content>
             </Tab>
@@ -71,12 +71,12 @@
                         <content>
                             <TableView fx:id="purchaseTable" layoutX="1.0" layoutY="1.0" minWidth="1300" prefHeight="700">
                                 <columns>
-                                    <TableColumn text="प्रज्ञापन पत्र नम्बर ">
+                                    <TableColumn text="प्रज्ञापनपत्र नम्बर ">
                                         <columns>
-                                            <TableColumn text="मिती">
+                                            <TableColumn text="मिति">
                                                 <cellValueFactory><PropertyValueFactory property="date" /></cellValueFactory>
                                             </TableColumn>
-                                            <TableColumn text="प्रज्ञापन पत्र नम्बर">
+                                            <TableColumn text="प्रज्ञापनपत्र नम्बर">
                                                 <cellValueFactory><PropertyValueFactory property="pragyapan_patra_number" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="आपुर्तिकर्त को नाम">
@@ -95,7 +95,7 @@
                                     </TableColumn>
                                     <TableColumn text="जम्मा खरिद">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="jamma_kharid_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -105,7 +105,7 @@
                                     </TableColumn>
                                     <TableColumn text="कर छुट हुने बस्तु वा सेवाको खरिद">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="kar_chut_bastu_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -113,9 +113,9 @@
                                             </TableColumn>
                                         </columns>
                                     </TableColumn>
-                                    <TableColumn text="कर योग्य खरिद (पुजिगत बहेक्)">
+                                    <TableColumn text="कर योग्य खरिद (पुँजीगत बाहेक)">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="kar_yogya_kharid_mulya_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -129,9 +129,9 @@
                                             </TableColumn>
                                         </columns>
                                     </TableColumn>
-                                    <TableColumn text="कर योग्य पौठरी (पुजिगत बहेक्)">
+                                    <TableColumn text="कर योग्य पौठरी (पुँजीगत बाहेक)">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="kar_yogya_pauthari_mulya_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -145,9 +145,9 @@
                                             </TableColumn>
                                         </columns>
                                     </TableColumn>
-                                    <TableColumn text="पुजिगत कर योग्य खरिद (पुजिगत बहेक्)">
+                                    <TableColumn text="पुँजीगत कर योग्य खरिद (पुँजीगत बाहेक)">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="pujigat_kar_yogya_kharid_mulya_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -170,7 +170,7 @@
             <Tab fx:id="tab3" text="बिक्री खता फरम">
                 <content>
                     <Pane prefHeight="769.0" prefWidth="1095.0">
-                        <Label layoutX="67.0" layoutY="55.0" prefHeight="0.0" prefWidth="31.0" text="मिती :" />
+                        <Label layoutX="67.0" layoutY="55.0" prefHeight="0.0" prefWidth="31.0" text="मिति :" />
                         <DatePicker fx:id="bikri_miti" layoutX="106.0" layoutY="51.0" prefHeight="17.0" prefWidth="197.0" />
                         <Label layoutX="34.0" layoutY="125.0" text="बिजक नम्बर :" />
                         <TextField id="bikri_bijak_no" fx:id="bikri_bijak_no" layoutX="137.0" layoutY="121.0" prefHeight="24.0" prefWidth="160.0" />
@@ -187,14 +187,14 @@
                         <TextField id="bikri_sewako_nam" fx:id="bikri_sewako_nam" layoutX="164.0" layoutY="348.0" />
                         <TextField id="bikri_bastu_parimad" fx:id="bikri_bastu_parimad" layoutX="179.0" layoutY="435.0" />
                         <Label layoutX="185.0" layoutY="548.0" text="पै :" />
-                        <Label layoutX="56.0" layoutY="548.0" text="मुलिय रु :" />
+                        <Label layoutX="56.0" layoutY="548.0" text="मुल्य रु :" />
                         <TextField id="bikri_jamma_bikri_1" fx:id="bikri_jamma_bikri_1" layoutX="48.0" layoutY="575.0" prefHeight="24.0" prefWidth="85.0" />
                         <TextField id="bikri_jamma_bikri_2" fx:id="bikri_jamma_bikri_2" layoutX="149.0" layoutY="575.0" prefHeight="24.0" prefWidth="100.0" />
-                        <Label layoutX="716.0" layoutY="85.0" text="मुलिय रु :" />
+                        <Label layoutX="716.0" layoutY="85.0" text="मुल्य रु :" />
                         <Label layoutX="890.0" layoutY="85.0" text="पै :" />
                         <TextField id="bikri_esthaniya_kar_chut_1" fx:id="bikri_esthaniya_kar_chut_1" layoutX="689.0" layoutY="109.0" prefHeight="24.0" prefWidth="115.0" />
                         <TextField id="bikri_esthaniya_kar_chut_2" fx:id="bikri_esthaniya_kar_chut_2" layoutX="864.0" layoutY="109.0" prefHeight="24.0" prefWidth="117.0" />
-                        <Label layoutX="632.0" layoutY="217.0" text="मुलिय रु :" />
+                        <Label layoutX="632.0" layoutY="217.0" text="मुल्य रु :" />
                         <Label layoutX="768.0" layoutY="217.0" text="पै :" />
                         <TextField id="bikri_kar_yogya_mulya_1" fx:id="bikri_kar_yogya_mulya_1" layoutX="607.0" layoutY="239.0" prefHeight="24.0" prefWidth="95.0" />
                         <TextField id="bikri_kar_yogya_mulya_2" fx:id="bikri_kar_yogya_mulya_2" layoutX="734.0" layoutY="239.0" prefHeight="24.0" prefWidth="83.0" />
@@ -204,8 +204,8 @@
                         <TextField id="bikri_kar_yogya_kar_2" fx:id="bikri_kar_yogya_kar_2" layoutX="944.0" layoutY="239.0" prefHeight="24.0" prefWidth="106.0" />
                         <Label layoutX="623.0" layoutY="405.0" text="निकासि गरेको बस्तु वा सेवाको मुल्य रु :" />
                         <Label layoutX="893.0" layoutY="405.0" text="निकासि गरेको देश्:" />
-                        <Label layoutX="644.0" layoutY="506.0" text="निकासि प्रज्ञापन पत्र नम्बर :" />
-                        <Label layoutX="879.0" layoutY="506.0" text="निकासि प्रज्ञापन पत्र मिती :" />
+                        <Label layoutX="644.0" layoutY="506.0" text="निकासि प्रज्ञापनपत्र नम्बर :" />
+                        <Label layoutX="879.0" layoutY="506.0" text="निकासि प्रज्ञापनपत्र मिति :" />
                         <TextField id="bikri_nikasi_bastu_mulya" fx:id="bikri_nikasi_bastu_mulya" layoutX="634.0" layoutY="435.0" />
                         <TextField id="bikri_nikasi_gariyeko_desh" fx:id="bikri_nikasi_gariyeko_desh" layoutX="837.0" layoutY="435.0" />
                         <TextField id="bikri_nikasi_pragyapan_no" fx:id="bikri_nikasi_pragyapan_no" layoutX="626.0" layoutY="544.0" />
@@ -223,7 +223,7 @@
                                 <columns>
                                     <TableColumn text="बिजक">
                                         <columns>
-                                            <TableColumn text="मिती">
+                                            <TableColumn text="मिति">
                                                 <cellValueFactory><PropertyValueFactory property="date" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="बिजक नम्बर">
@@ -245,7 +245,7 @@
                                     </TableColumn>
                                     <TableColumn text="जम्मा बिऋ">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="jamma_bekri_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -255,7 +255,7 @@
                                     </TableColumn>
                                     <TableColumn text="स्था निय कर छुटको बिऋ">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="esthaniya_kar_chutko_bikri_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -266,7 +266,7 @@
 
                                     <TableColumn text="कर योग्य बिऋ">
                                         <columns>
-                                            <TableColumn text="मुलिय रु">
+                                            <TableColumn text="मुल्य रु">
                                                 <cellValueFactory><PropertyValueFactory property="kar_yogya_bekri_muliya_1" /></cellValueFactory>
                                             </TableColumn>
                                             <TableColumn text="पै">
@@ -288,10 +288,10 @@
                                             <TableColumn text="निकासि गरेको देश्">
                                                 <cellValueFactory><PropertyValueFactory property="nikasi_bastu_desh" /></cellValueFactory>
                                             </TableColumn>
-                                            <TableColumn text="निकासि प्रज्ञापन पत्र नम्बर">
+                                            <TableColumn text="निकासि प्रज्ञापनपत्र नम्बर">
                                                 <cellValueFactory><PropertyValueFactory property="nikasi_bastu_patra_no" /></cellValueFactory>
                                             </TableColumn>
-                                            <TableColumn text="निकासि प्रज्ञापन पत्र मिती">
+                                            <TableColumn text="निकासि प्रज्ञापनपत्र मिति">
                                                 <cellValueFactory><PropertyValueFactory property="nikasi_bastu_patra_miti" /></cellValueFactory>
                                             </TableColumn>
                                         </columns>
@@ -305,33 +305,33 @@
             <Tab fx:id="tab5" text="स्टक खता फरम">
                 <content>
                     <Pane prefHeight="769.0" prefWidth="1095.0">
-                  <children>
-                      <DatePicker id="stock_miti" fx:id="stock_miti" layoutX="135.0" layoutY="57.0" />
-                      <Label layoutX="73.0" layoutY="61.0" text="मिति :" />
-                      <Label layoutX="73.0" layoutY="151.0" text="बिव्रणा :" />
-                      <TextField id="stock_bibarad" fx:id="stock_bibarad" layoutX="154.0" layoutY="147.0" />
-                      <Label layoutX="581.0" layoutY="49.0" text="दी गई सखिय :" />
-                      <Label layoutX="581.0" layoutY="116.0" text="सोख सन्ख्या :" />
-                      <Label layoutX="167.0" layoutY="240.0" text="प्रप्त" />
-                      <Label layoutX="40.0" layoutY="272.0" text="सखिय :" />
-                      <Label layoutX="158.0" layoutY="272.0" text="दर् :" />
-                      <Label layoutX="288.0" layoutY="272.0" text="रकम :" />
-                      <TextField id="stock_prapta_sankhiya" fx:id="stock_prapta_sankhiya" layoutX="14.0" layoutY="299.0" prefHeight="24.0" prefWidth="96.0" />
-                      <TextField id="stock_prapta_daar" fx:id="stock_prapta_daar" layoutX="135.0" layoutY="299.0" prefHeight="24.0" prefWidth="99.0" />
-                      <TextField id="stock_prapta_rakam" fx:id="stock_prapta_rakam" layoutX="259.0" layoutY="299.0" prefHeight="24.0" prefWidth="107.0" />
-                      <TextField id="stock_di_jae_sankhiya" fx:id="stock_di_jae_sankhiya" layoutX="662.0" layoutY="45.0" />
-                      <TextField id="stock_sokh_sankhiya" fx:id="stock_sokh_sankhiya" layoutX="662.0" layoutY="112.0" />
-                      <Label layoutX="581.0" layoutY="171.0" text="बिसेस बिबरणा :" />
-                      <TextField id="stock_bises_bibarad" fx:id="stock_bises_bibarad" layoutX="662.0" layoutY="167.0" />
-                      <AutoCompleteTextField fx:id="set_article" layoutX="660.0" layoutY="211.0" />
-                      <Button fx:id="stockAdd" layoutX="614.0" layoutY="305.0" mnemonicParsing="false" text="Add" />
-                     <Label layoutX="905.0" layoutY="49.0" text="Artical:" />
-                     <TextField fx:id="articleField" layoutX="884.0" layoutY="77.0" />
-                     <Button fx:id="addArticle" layoutX="929.0" layoutY="120.0" mnemonicParsing="false" text="Add" />
-                     <Label layoutX="579.0" layoutY="215.0" text="artical:" />
-                      <Button fx:id="stockCancelEdit" layoutX="679.0" layoutY="305.0" mnemonicParsing="false" text="Cancel Edit" visible="false" />
+                        <children>
+                            <DatePicker id="stock_miti" fx:id="stock_miti" layoutX="135.0" layoutY="57.0" />
+                            <Label layoutX="73.0" layoutY="61.0" text="मिति :" />
+                            <Label layoutX="73.0" layoutY="151.0" text="बिव्रणा :" />
+                            <TextField id="stock_bibarad" fx:id="stock_bibarad" layoutX="154.0" layoutY="147.0" />
+                            <Label layoutX="581.0" layoutY="49.0" text="दी गई सखिय :" />
+                            <Label layoutX="581.0" layoutY="116.0" text="सोख सन्ख्या :" />
+                            <Label layoutX="167.0" layoutY="240.0" text="प्रप्त" />
+                            <Label layoutX="40.0" layoutY="272.0" text="सखिय :" />
+                            <Label layoutX="158.0" layoutY="272.0" text="दर् :" />
+                            <Label layoutX="288.0" layoutY="272.0" text="रकम :" />
+                            <TextField id="stock_prapta_sankhiya" fx:id="stock_prapta_sankhiya" layoutX="14.0" layoutY="299.0" prefHeight="24.0" prefWidth="96.0" />
+                            <TextField id="stock_prapta_daar" fx:id="stock_prapta_daar" layoutX="135.0" layoutY="299.0" prefHeight="24.0" prefWidth="99.0" />
+                            <TextField id="stock_prapta_rakam" fx:id="stock_prapta_rakam" layoutX="259.0" layoutY="299.0" prefHeight="24.0" prefWidth="107.0" />
+                            <TextField id="stock_di_jae_sankhiya" fx:id="stock_di_jae_sankhiya" layoutX="662.0" layoutY="45.0" />
+                            <TextField id="stock_sokh_sankhiya" fx:id="stock_sokh_sankhiya" layoutX="662.0" layoutY="112.0" />
+                            <Label layoutX="581.0" layoutY="171.0" text="बिसेस बिबरणा :" />
+                            <TextField id="stock_bises_bibarad" fx:id="stock_bises_bibarad" layoutX="662.0" layoutY="167.0" />
+                            <AutoCompleteTextField fx:id="set_article" layoutX="660.0" layoutY="211.0" />
+                            <Button fx:id="stockAdd" layoutX="614.0" layoutY="305.0" mnemonicParsing="false" text="Add" />
+                            <Label layoutX="905.0" layoutY="49.0" text="Artical:" />
+                            <TextField fx:id="articleField" layoutX="884.0" layoutY="77.0" />
+                            <Button fx:id="addArticle" layoutX="929.0" layoutY="120.0" mnemonicParsing="false" text="Add" />
+                            <Label layoutX="579.0" layoutY="215.0" text="artical:" />
+                            <Button fx:id="stockCancelEdit" layoutX="679.0" layoutY="305.0" mnemonicParsing="false" text="Cancel Edit" visible="false" />
 
-                  </children></Pane>
+                        </children></Pane>
                 </content>
             </Tab>
             <Tab fx:id="tab6" text="स्टक खता">
@@ -373,10 +373,10 @@
                                 </TableView>
                             </content>
                         </ScrollPane>
-                  <Label fx:id="selectedArticleLabel" layoutX="718.0" layoutY="46.0" text="Article: None" />
-                  <Label layoutX="704.0" layoutY="145.0" text="Select Article:" />
-                  <AutoCompleteTextField fx:id="searchArticle" layoutX="675.0" layoutY="170.0" />
-                  <Button fx:id="selectArticle" layoutX="883.0" layoutY="170.0" mnemonicParsing="false" text="View" />
+                        <Label fx:id="selectedArticleLabel" layoutX="718.0" layoutY="46.0" text="Article: None" />
+                        <Label layoutX="704.0" layoutY="145.0" text="Select Article:" />
+                        <AutoCompleteTextField fx:id="searchArticle" layoutX="675.0" layoutY="170.0" />
+                        <Button fx:id="selectArticle" layoutX="883.0" layoutY="170.0" mnemonicParsing="false" text="View" />
 
                     </Pane>
                 </content>
